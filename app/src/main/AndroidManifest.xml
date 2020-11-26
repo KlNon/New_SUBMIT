@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".Find_password_2">
+            <intent-filter>
+                <action android:name="com.example.activitytest.ACTION_find2"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Find_password" >
+            <intent-filter>
+                <action android:name="com.example.activitytest.ACTION_find"/>
+                <category android:name="com.example.activitytest.category.ACTION_find"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".title" />
+        <activity android:name=".register">
+
+            <!-- android:theme="@style/Theme.AppCompat.Dialog">当取消注释的时候需要将上面那个>删掉,另外这个是对话框形式的主题 -->
+            <intent-filter>
+                <action android:name="com.example.activitytest.ACTION_reg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.example.activitytest.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="com.example.activitytest.ACTION_log" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

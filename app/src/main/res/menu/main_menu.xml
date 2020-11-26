@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hello_item"
+        android:title="hello"/>
+    <item
+        android:id="@+id/world_item"
+        android:title="world"/>
+    <item
+        android:id="@+id/baidu"
+        android:title="baidu"/>
+    <item
+        android:id="@+id/create"
+        android:title="创建数据库"/>
+    <item
+        android:id="@+id/destroy"
+        android:title="清空数据库"/>
+</menu>

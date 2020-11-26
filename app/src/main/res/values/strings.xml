@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">新的应用</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="change_password">找回密码</string>
+    <string name="login_success">登陆成功!</string>
+    <string name="email">邮箱</string>
+    <string name="reg_page">注册页面</string>
+    <string name="Login_username">用户名/邮箱</string>
+    <string name="back">返回</string>
+    <string name="zhuxiao">注销</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="remember_password">记住密码</string>
+    <string name="Origin_password">原始密码</string>
+    <string name="new_password">新的密码</string>
+    <string name="OK">确认</string>
+    <string name="new_password2">请在重复一遍新密码</string>
+    <string name="qiehuan">切换按钮</string>
+    <string name="password_again">重复密码</string>
+</resources>
